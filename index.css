@@ -652,6 +652,7 @@
 		min-height: 30rem;
 		min-height: 30em;
 		position: relative;
+		display: table;
 	}
 
 	.advise-left{
@@ -661,7 +662,8 @@
 	}
 
 	.advise-left>div{
-		margin-top: 20%;
+		display: table-cell;
+		vertical-align: middle;
 	}
 
 	.avl-thumb{
@@ -683,6 +685,10 @@
 	}
 	.avl-thumb>div>div{
 		float: left;
+	}
+	.avl-thumb>div{
+		width: 100%;
+		margin: 0;
 	}
 
 	.avl-avt-ctn:hover .avl-image{
@@ -788,6 +794,8 @@
 	}
 	.advise-right>div{
 		margin:0;
+		display: table-cell;
+		vertical-align: middle;
 	}
 
 	#section5 p{
