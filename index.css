@@ -16,6 +16,7 @@
 
 	.section{
 		position: relative;
+		margin: 0;
 	}
 
 	p{
@@ -240,6 +241,25 @@
 		height: 80% !important;
 	}
 
+	.padding1em{
+		padding: 1em;
+	}
+
+	.mx-auto{
+		float: none !important;
+		margin: auto !important;
+	}
+
+	.py1em{
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+
+	.py2em{
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
+
 	#fsNavToggle a{
 		font-weight: 600;
 	}
@@ -259,13 +279,21 @@
 		opacity: 1;
 	}
 
-	span.boldRed{
-		font-weight: 600;
-		color: #c4142b;
+	.boldRed{
+		font-weight: 600 !important;
+		color: #c4142b !important;
 	}
 
 	.red{
 		color: #c4142b !important;
+	}
+
+	.grey{
+		color: #a0a0a0 !important;
+	}
+
+	.white{
+		color: #f7f7f7 !important;
 	}
 
 	#section2{
@@ -281,6 +309,8 @@
 
 	#section2 p{
 		font-family: "Os-regular";
+		width: 80%;
+		margin:auto;
 	}
 
 	#fs-slideshow{
@@ -619,10 +649,6 @@
 		margin:auto;
 	}
 
-	.padding1em{
-		padding: 1em;
-	}
-
 	div.policy-box-desc{
 		width: 100%;
 		padding-left: 6em;
@@ -800,6 +826,47 @@
 	#section5 p{
 		font-family: 'Os-regular';
 	}
+
+	#section6{
+
+	}
+
+	#section7{
+		overflow: hidden;
+		display: table;
+	}
+
+	.su-img{
+		bottom: 0;
+		right: 0;
+		z-index: 0;
+	}
+
+	.signup>.mask{
+		z-index: 1;
+		opacity: .55; /* Standards Compliant Browsers */
+		filter: alpha(opacity=55); /* IE 7 and Earlier */
+		/* Next 2 lines IE8 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=55)";
+		filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=55);
+	}
+
+	.su-content{
+		display: table-cell;
+		vertical-align: middle;
+		position: relative;
+		z-index: 2;
+	}
+
+	.su-content>a{
+		border-radius: 0px;
+	}
+	.su-content>.fs-button2:before{
+		display: none;
+	}
+	.su-content>.fs-button2:after{
+		display: none;
+	}
 /*All end*/
 
 /*Desktop begin*/
@@ -841,6 +908,16 @@
 	.device{
 	    width: 72em;
 	}
+
+	#section7{
+		height: 36vw;
+	}
+
+	.su-img{
+		position: absolute;
+		width: 100%;
+		top: -25% !important;
+	}
 }
 /*Desktop end*/
 
@@ -870,7 +947,7 @@
 /*Tablet and Mobile end*/
 
 /*Tablet begin*/
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
 	#fs-navbar .navbar-toggler{
 		margin-top: 0.85em;
 	}
@@ -888,6 +965,16 @@
 		margin-top: 4em;
 		width: 54em;
     	height: 24em;
+	}
+
+	#section7{
+		height: 36vw;
+	}
+
+	.su-img{
+		position: absolute;
+		top: -24%;
+		width: 100%;
 	}
 }
 /*Tablet end*/
@@ -958,6 +1045,17 @@
 
 	.avr-slide{
 		max-width: 100%;
+	}
+
+	#section7{
+		height: 35em;
+		padding: 0;
+	}
+
+	.su-img{
+		position: absolute;
+		height: 100%;
+		width: auto;
 	}
 }
 /*Mobile end*/

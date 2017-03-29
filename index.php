@@ -151,12 +151,12 @@
 					</div>
 				</div>
 				<div class="row text-center justify-content-center">
-					<div class="col-auto policy-box-title padding1rem">
+					<div class="col-auto policy-box-title padding1em">
 						<p class="fs-h3 red">Bảo mật</p>
 					</div>
 				</div>
 				<div class="row text-center justify-content-center">
-					<div class="col-auto policy-box-desc padding1rem">
+					<div class="col-auto policy-box-desc padding1em">
 						<p>Bạn có thể chi sẻ dữ liệu ở đây, ở kia, ở bất cứ chỗ nào bất cứ lúc nào, kể cả bạn đi ăn đi chơi, đi ca, thậm chí là đi nhậu, phần chữ này kéo dài để test thôi hihi</p>
 					</div>
 				</div>
@@ -168,12 +168,12 @@
 					</div>
 				</div>
 				<div class="row text-center justify-content-center">
-					<div class="col-auto policy-box-title padding1rem">
+					<div class="col-auto policy-box-title padding1em">
 						<p class="fs-h3 red">300BG lưu trữ</p>
 					</div>
 				</div>
 				<div class="row text-center justify-content-center">
-					<div class="col-auto policy-box-desc padding1rem">
+					<div class="col-auto policy-box-desc padding1em">
 						<p>Bạn có thể chi sẻ dữ liệu ở đây, ở kia, ở bất cứ chỗ nào bất cứ lúc nào, kể cả bạn đi ăn đi chơi, đi ca, thậm chí là đi nhậu, phần chữ này kéo dài để test thôi hihi</p>
 					</div>
 				</div>
@@ -185,18 +185,18 @@
 					</div>
 				</div>
 				<div class="row text-center justify-content-center">
-					<div class="col-auto policy-box-title padding1rem">
+					<div class="col-auto policy-box-title padding1em">
 						<p class="fs-h3 red">Tốc độ vượt trội</p>
 					</div>
 				</div>
 				<div class="row text-center justify-content-center">
-					<div class="col-auto policy-box-desc padding1rem">
+					<div class="col-auto policy-box-desc padding1em">
 						<p>Bạn có thể chi sẻ dữ liệu ở đây, ở kia, ở bất cứ chỗ nào bất cứ lúc nào, kể cả bạn đi ăn đi chơi, đi ca, thậm chí là đi nhậu, phần chữ này kéo dài để test thôi hihi</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row policy-more padding1rem" anim="anim-0.75" animFunc="fadeInDown50">
+		<div class="row policy-more padding1em" anim="anim-0.75" animFunc="fadeInDown50">
 			<a class="fs-button1" href="">TÌM HIỂU THÊM</a>
 		</div>
 	</div>
@@ -265,26 +265,26 @@
 			</div>
 			<div class="col-md-6 advise-right">
 				<div class="row h-100 w-100 mx-auto">
-					<p class="fs-h3 padding1rem mx-auto my-auto w-100 text-center" anim="anim-0.6" animFunc="fadeInDown20">Tại sao nên chọn Fshare?</p>
+					<p class="fs-h3 padding1em mx-auto my-auto w-100 text-center" anim="anim-0.6" animFunc="fadeInDown20">Tại sao nên chọn Fshare?</p>
 					<div class="avr-slide text-center mx-auto my-auto" anim="anim-0.8" animFunc="fadeInLeft20">
 						<div class="avr-slide-bound">
 							<div class="text-center avr-slide-item">
 								<img class="avr-image" src="device.png" height="100px" width="100px"/>
 								<p>Anh Phạm Xuân Phú Cường</p>
 								<p>Chủ tịch tập đoàn HD Online</p>
-								<p class="padding1rem avr-quote">Bạn có thể chi sẻ dữ liệu ở đây, ở kia, ở bất cứ chỗ nào bất cứ lúc nào, kể cả bạn đi ăn đi chơi, đi ca, thậm chí là đi nhậu, phần chữ này kéo dài để test thôi hihi</p>
+								<p class="padding1em avr-quote">Bạn có thể chi sẻ dữ liệu ở đây, ở kia, ở bất cứ chỗ nào bất cứ lúc nào, kể cả bạn đi ăn đi chơi, đi ca, thậm chí là đi nhậu, phần chữ này kéo dài để test thôi hihi</p>
 							</div>
 							<div class="text-center avr-slide-item">
 								<img class="avr-image" src="device.png" height="100px" width="100px"/>
 								<p>Anh Phạm Xuân Phú Cường</p>
 								<p>Chủ tịch tập đoàn HD Online</p>
-								<p class="padding1rem avr-quote">Bạn có thể chi sẻ dữ liệu ở đây, ở kia, ở bất cứ chỗ nào bất cứ lúc nào, kể cả bạn đi ăn đi chơi, đi ca, thậm chí là đi nhậu, phần chữ này kéo dài để test thôi hihi</p>
+								<p class="padding1em avr-quote">Bạn có thể chi sẻ dữ liệu ở đây, ở kia, ở bất cứ chỗ nào bất cứ lúc nào, kể cả bạn đi ăn đi chơi, đi ca, thậm chí là đi nhậu, phần chữ này kéo dài để test thôi hihi</p>
 							</div>
 							<div class="text-center avr-slide-item">
 								<img class="avr-image" src="device.png" height="100px" width="100px"/>
 								<p>Anh Phạm Xuân Phú Cường</p>
 								<p>Chủ tịch tập đoàn HD Online</p>
-								<p class="padding1rem avr-quote">Bạn có thể chi sẻ dữ liệu ở đây, ở kia, ở bất cứ chỗ nào bất cứ lúc nào, kể cả bạn đi ăn đi chơi, đi ca, thậm chí là đi nhậu, phần chữ này kéo dài để test thôi hihi</p>
+								<p class="padding1em avr-quote">Bạn có thể chi sẻ dữ liệu ở đây, ở kia, ở bất cứ chỗ nào bất cứ lúc nào, kể cả bạn đi ăn đi chơi, đi ca, thậm chí là đi nhậu, phần chữ này kéo dài để test thôi hihi</p>
 							</div>
 						</div>
 					</div>
@@ -298,6 +298,23 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+	<div class="section container row w-100 py2em" id="section6">
+		<div class="col-md-12 text-center">
+			<p class="fs-h3 grey">Fshare được các đối tác tin tưởng</p>
+		</div>
+		<div class="col-md-12 text-center padding1em">
+			
+		</div>
+	</div>
+	<div class="section container row w-100 py2em signup" id="section7">
+		<div class="mask"></div>
+		<img class="su-img" src="bgst7.jpg" />
+		<div class="col-md-10 text-center mx-auto su-content">
+			<p class="fs-h2 white">LƯU TRỮ MỌI LÚC CHIA SẺ MỌI NƠI</p>
+			<p class="fs-h3 white">Hãy cùng trải nghiệm và cảm nhận với chúng tôi</p>
+			<a class="fs-button2" href="">Đăng ký ngay</a>
 		</div>
 	</div>
 </body>

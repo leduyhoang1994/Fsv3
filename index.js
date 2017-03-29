@@ -93,6 +93,12 @@ function checkScrollToShow(){
 function resizeElement(){
    $('#navspace').height($('.container-fluid').height());
    $('#fs-slideshow').height($('#fs-slideshow').width() * (9/16));
+   if($('.su-img').width() < $('#section7').outerWidth()){
+      $('.su-img').width($('#section7').outerWidth());
+   }
+   if($('.su-img').height() < $('#section7').height()){
+      $('.su-img').height($('#section7').height());
+   }
 }
 
 var currentSlide = "fs-slide2";
