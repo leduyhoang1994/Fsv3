@@ -99,6 +99,10 @@ function resizeElement(){
    if($('.su-img').height() < $('#section7').height()){
       $('.su-img').height($('#section7').height());
    }
+   if($(window).width() >= 992){
+      var dvbtm = (parseFloat($('.device').css('bottom')));
+      $('#section1').height($(window).height() - $('#navspace').height() + dvbtm);
+   }
 }
 
 var currentSlide = "fs-slide2";

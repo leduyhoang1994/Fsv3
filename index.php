@@ -34,7 +34,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-collapse fs-navbar navbar-fixed-top">
-	  <div class="container-fluid">
+	  <div class="container-fluid fn-fluid">
 	  	<div class="navbar-header">
 	  		<button type="button" class="navbar-toggle fs-nav-toggle" data-toggle="collapse" data-target="#fsNavbar">
 		        <span class="icon-bar"></span>
@@ -45,7 +45,7 @@
 	  			<img alt="brand" src="logo.png" height="100%"/>
 	  		</a>
 	  	</div>
-	  	<div class="navbar-right collapse navbar-collapse" id="fsNavbar">
+	  	<div class="navbar-right collapse navbar-collapse" id="fn-menu">
 	  		<ul class="nav navbar-nav">
 	  			<li class="">
 	                <a class="" href="#">GIỚI THIỆU</a>
@@ -83,7 +83,7 @@
 		</p>
 		<a id="upload-btn" href="" class="fs-button2 flyUp" anim="anim-0.25" animFunc="fadeInUp50">TẢI LÊN &AMP; CHIA SẺ</a>
 		<div class="device flyUp" anim="anim-0.5" animFunc="fadeInUp20">
-			<img src="device.png" width="100%">
+			<img src="device.png" class="hidden-xs hidden-sm" height="100%">
 		</div>
 	</div>
 	<div id="section2" class="text-center container section" heightToShow="50">

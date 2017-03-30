@@ -9,6 +9,11 @@
 	    src: url(font/opensans/OpenSans-Regular.ttf) format("truetype");
 	}
 
+	@font-face {
+	    font-family: "Os-bold";
+	    src: url(font/opensans/OpenSans-Bold.ttf) format("truetype");
+	}
+
 	body{
 		background-color: white;
 		margin: 0;		font-family: 'Os-light','Open Sans', sans-serif;
@@ -33,8 +38,16 @@
 
 	a.navbar-brand{
 		display: inline-table;
-    	height: 3em;
-    	padding:0.5em;
+    	padding:1vh;
+	}
+
+	#fn-menu ul li a{
+	    padding-top: 0;
+		font-size: 0.8em;
+		padding:0.9em 1.2em;
+		color: #333;
+		background: none !important;
+		font-family: "Os-bold";
 	}
 
 	.mask{
@@ -268,11 +281,10 @@
 	    position: absolute;
 	    left: 0;
 	    right: 0;
-	    bottom: -3em;
+	    bottom: -4%;
 	    margin-left: auto;
 	    margin-right: auto;
 	    z-index: 5;
-	    width: 50%;
 	}
 
 	.divice-anim{
@@ -299,10 +311,9 @@
 	#section2{
 		background-image: url(bg2.png);
 	    background-size: cover;
-	    padding-top: 13em;
+	    padding-top: 5em;
 	    background-position-y: -30em;
 	    background-repeat: no-repeat;
-	    height: 90em;
 	    width: 100%;
 	    position: relative;
 	}
@@ -314,8 +325,6 @@
 	}
 
 	#fs-slideshow{
-		margin-top: 4em;
-		width: 69em;
 		height: 35em;
 		margin-left: auto;
 		margin-right: auto;
@@ -635,6 +644,11 @@
 		text-align: center;
 	}
 
+	.policy-desc{
+		width: 80%;
+		margin: auto;
+	}
+
 	.policy-more>a{
 		padding-left: 2em;
 		padding-right: 2em;
@@ -656,7 +670,7 @@
 	}
 
 	.policy-title{
-		padding-top: 8em;
+		padding-top: 5em;
 		padding-bottom: 1em;
 	}
 	.policy-desc{
@@ -670,7 +684,7 @@
 		min-height: 30em;
 		background-image: url(bg2.png);
 		overflow: hidden;
-		margin-top: 2em;
+		margin-top: 5em;
 	}
 
 	.advise-left,.advise-right,#section{
@@ -770,13 +784,13 @@
 	}
 
 	.avl-circle{
-		width: 16px;
-		height: 16px;
+		width: 1em;
+		height: 1em;
 		position: absolute;
-		bottom: -8px;
-		right: -8px;
+		bottom: -0.5em;
+		right: -0.5em;
 		background-color: #DDDDDD;
-		border-radius: 50%;
+		border-radius: 1em;
 		z-index: 1;
 		transition: all 0.5s ease-out;
 	}
@@ -872,12 +886,24 @@
 /*Desktop begin*/
 @media screen and (min-width: 992px){
 	body {
-		font-size: 14px;
+		font-size: 2vh;
+	}
+
+	a.navbar-brand{
+		height: 10vh;
+	}
+
+	#fn-menu{
+		display: table !important;
+	    position: absolute;
+	    right: 3em;
+	    top: 0;
+	    bottom: 0;
+	    margin-top: auto;
+	    margin-bottom: auto;
 	}
 
 	#fs-slide-content-container{
-		min-width: 71em;
-		max-width: 100em;
 		height: 21em;
 		position: relative;
 	}
@@ -885,6 +911,14 @@
 	#fsNavToggle nav{
 		background-color: transparent;
 		padding-right: 0px;
+	}
+
+	#fs-slideshow{
+		width: 60vw;
+	}
+
+	#fs-slide-content-container{
+		width: 95vw;
 	}
 
 	nav.navbar{
@@ -901,12 +935,13 @@
 	}
 
 	#section1{
-		height: 70em;
+		height: 100vh;
 		background-size: cover;
 	}
 
 	.device{
-	    width: 72em;
+	    height: 50%;
+	    margin:auto;
 	}
 
 	#section7{
@@ -952,6 +987,16 @@
 		margin-top: 0.85em;
 	}
 
+	#fn-menu{
+		display: table !important;
+	    position: absolute;
+	    right: 3em;
+	    top: 0;
+	    bottom: 0;
+	    margin-top: auto;
+	    margin-bottom: auto;
+	}
+
 	body {
 		font-size: 10px;
 	}
@@ -991,11 +1036,6 @@
 	#section1{
 		height: 60em;
 		background-size: cover;
-	}
-
-	.device{
-	    bottom: -2em;
-	    width: 80%;
 	}
 
 	.fs-slide2{
