@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome.min.css">
 	<script type="text/javascript">
 	    var isHell = false;
 	</script>
@@ -130,7 +131,7 @@
 	</div>
 	<div class="section" id="section3" heightToShow="50">
 		<div class="mask"></div>
-		<h2 class="fs-h2" anim="anim-0" animFunc="fadeInUp20">Mạng xã hội Lưu trữ - Chia sẻ dữ liệu hàng đầu VIỆT NAM</h2>
+		<h2 class="fs-h2" anim="anim-0" animFunc="fadeInUp20">MẠNG XÃ HỘI LƯU TRỮ - CHIA SẺ DỮ LIỆU HÀNG ĐẦU VIỆT NAM</h2>
 	</div>
 	<div id="section4" class="container policy section">
 		<div class="row text-center policy-title" anim="anim-0" animFunc="fadeInDown20">
@@ -202,7 +203,7 @@
 	</div>
 	<div id="section5" class="container advise section">
 		<div class="row">
-			<div class="col-md-6 hidden-sm hidden-xs advise-left d-flex">
+			<div class="col-md-4 hidden-sm hidden-xs advise-left d-flex">
 				<div class="row h-80 w-100 align-self-center">
 				    <div class="col-md-12 my-auto avl-avt-ctn" onclick="avrSlideTo(1)" anim="anim-0" animFunc="fadeInRight20">
 				    	<div class="row h-100">
@@ -263,7 +264,7 @@
 				    </div>
 				</div>
 			</div>
-			<div class="col-md-6 advise-right">
+			<div class="col-md-8 advise-right">
 				<div class="row h-100 w-100 mx-auto">
 					<p class="fs-h3 padding1em mx-auto my-auto w-100 text-center" anim="anim-0.6" animFunc="fadeInDown20">Tại sao nên chọn Fshare?</p>
 					<div class="avr-slide text-center mx-auto my-auto" anim="anim-0.8" animFunc="fadeInLeft20">
@@ -314,7 +315,105 @@
 		<div class="col-md-10 text-center mx-auto su-content">
 			<p class="fs-h2 white">LƯU TRỮ MỌI LÚC CHIA SẺ MỌI NƠI</p>
 			<p class="fs-h3 white">Hãy cùng trải nghiệm và cảm nhận với chúng tôi</p>
-			<a class="fs-button2" href="">Đăng ký ngay</a>
+			<a class="fs-button2" href="">ĐĂNG KÝ NGAY</a>
+		</div>
+	</div>
+	<div class="section container row w-100 py2em footer" id="footer">
+		<div class="ft-section support">
+			<div class="ft-block">
+				<div class="row">
+					<div class="col-md-12 hidden-md hidden-lg">
+						<div class="dropdown">
+						<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><i class="fa fa-globe" aria-hidden="true"></i>  Tiếng Việt <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+						<ul class="dropdown-menu">
+							<li><a href="#">HTML</a></li>
+							<li><a href="#">CSS</a></li>
+							<li><a href="#">JavaScript</a></li>
+						</ul>
+						</div>
+					</div>
+					<div class="col-md-12"><p>FSHARE</p></div>
+					<div class="col-md-12"><a class="ft-text" href="">Tính năng</a></div>
+					<div class="col-md-12"><a class="ft-text" href="">Đối tác</a></div>
+					<div class="col-md-12"><a class="ft-text" href="">Liên hệ</a></div>
+					<div class="col-md-12"><a class="ft-text" href="">Tin tức</a></div>
+					<div class="col-md-12 hidden-xs hidden-sm">
+						<div class="dropdown">
+						<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><i class="fa fa-globe" aria-hidden="true"></i>  Tiếng Việt <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+						<ul class="dropdown-menu">
+							<li><a href="#">HTML</a></li>
+							<li><a href="#">CSS</a></li>
+							<li><a href="#">JavaScript</a></li>
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ft-block">
+				<div class="row">
+					<div class="col-md-12"><p>CHÍNH SÁCH</p></div>
+					<div class="col-md-12"><a class="ft-text" href="">Chính sách điểm thưởng</a></div>
+					<div class="col-md-12"><a class="ft-text" href="">Chính sách Hotfile/Directlink</a></div>
+					<div class="col-md-12"><a class="ft-text" href="">Chính sách hội viên</a></div>
+					<div class="col-md-12"><a class="ft-text" href="">Điều khoản sử dụng</a></div>
+					<div class="col-md-12"><a class="ft-text" href="">Chính sách và quy định chung</a></div>
+					<div class="col-md-12"><a class="ft-text" href="">Chính sách bảo mật thông tin</a></div>
+				</div>
+			</div>
+			<div class="ft-block">
+				<div class="row">
+					<div class="col-md-12"><p>HỖ TRỢ</p></div>
+					<div class="col-md-12"><a class="ft-text" href="">Hướng dẫn sử dụng</a></div>
+					<div class="col-md-12"><a class="ft-text" href="">Câu hỏi thường gặp</a></div>
+					<div class="col-md-12"><a class="ft-text" href="">Gửi yêu cầu hỗ trợ</a></div>
+					<div class="col-md-12 py1em"><a href=""></a></div>
+					<div class="col-md-12"><a class="ft-text" href="">THÔNG TIN LIÊN HỆ</a></div>
+					<div class="col-md-12"><p class="ft-text">Hotline : <span class="boldRed">1900 6600</span></p></div>
+					<div class="col-md-12"><p class="ft-text">Email hỗ trợ : <span class="boldRed">hotro@fshare.vn</span></p></div>
+				</div>
+			</div>
+			<div class="ft-block">
+				<div class="row">
+					<div class="col-md-12"><p>TẢI ỨNG DỤNG</p></div>
+					<div class="col-md-12 py1em"><a href=""></a></div>
+					<div class="col-md-12 py1em"><a href=""></a></div>
+					<div class="col-md-12"><a href="">KẾT NỐI VỚI CHÚNG TÔI</a></div>
+					<div class="col-md-12 col-xs-6 col-sm-4">
+						<div class="row">
+							<div class="col-md-3 col-xs-3"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+							<div class="col-md-3 col-xs-3"><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+							<div class="col-md-3 col-xs-3"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+							<div class="col-md-3 col-xs-3"><i class="fa fa-youtube-play" aria-hidden="true"></i></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row py1em border-top ft-section contact">
+			<div class="ft-block">
+				<div class="row">
+					<div class="col-md-2">
+						
+					</div>
+					<div class="col-md-10">
+						<div class="row">
+							<div class="ft-text">Danh hiệu Sao Khuê 2013 - 2014</br>
+							Ngành phần mềm & dịch vụ CNTT Việt Nam</div>
+							<div class="ft-text py1em">
+								Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2017 by fshare.vn
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ft-block">
+				<p class="ft-text">Tên đơn vị: Công ty cổ phần viễn thông FPT</p>
+				<p class="ft-text">Người đại diện: Vũ Anh Tú</p>
+				<p class="ft-text">Địa chỉ: Tầng 2, Tòa nhà FPT Cầu Giấy, Phố Duy Tân, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội, Việt Nam</p>
+				<p class="ft-text">Giấy chứng nhận đăng ký kinh doanh số 0101778163 do Sở Kế Hoạch Đầu Tư Thành Phố Hà Nội cấp lần đầu vào ngày 28/07/2005
+				</p>
+				<p class="ft-text">Giấy phép MXH số 364/GP-BTTTT cấp</p>
+			</div>
 		</div>
 	</div>
 </body>

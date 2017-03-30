@@ -318,7 +318,7 @@
 	    position: relative;
 	}
 
-	#section2 p{
+	#section2>p{
 		font-family: "Os-regular";
 		width: 80%;
 		margin:auto;
@@ -451,7 +451,7 @@
 	}
 	.fcs-content{
 		text-align: left;
-		padding: 1em;
+		padding: 1em 0em;
 	}
 	.fcs-content p{
 		margin-bottom: 2em;
@@ -873,7 +873,7 @@
 	}
 
 	.su-content>a{
-		border-radius: 0px;
+		border-radius: 4px;
 	}
 	.su-content>.fs-button2:before{
 		display: none;
@@ -881,12 +881,87 @@
 	.su-content>.fs-button2:after{
 		display: none;
 	}
+	#footer a{
+		text-decoration: none;
+		color: #fff;
+		font-family: "Os-regular";
+		font-weight: normal;
+	}
+
+	#footer div{
+		color: #fff;
+	}
+
+	#footer .ft-block>.row>div{
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+	}
+
+	.ft-section{
+		display: table;
+		margin: auto;
+	}
+
+	.ft-block>.row>div{
+		float: none;
+	}
+
+	#footer .dropdown-menu{
+		background-color: #333333;
+	}
+
+	#footer .btn-primary{
+		background-color: #333333;
+		border-color: silver;
+	}
+
+	a.ft-text:hover{
+		color:  #c4142b !important;
+		outline: none;
+	}
+	.ft-text{
+		font-size: 0.8em;
+	}
+
+	.border-top{
+		border-top: #f7f7f7 1px solid;
+	}
+
+	#footer p{
+		color: white;
+		font-family: "Os-regular";
+		font-weight: normal;	
+	}
+
+	#footer i{
+		color: #fff;
+	}
+
+	.ft-block:last-child{
+		padding-right: 0;
+	}
+
+	.contact .row{
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	#footer{
+		background-color: #333333;
+	}
 /*All end*/
 
 /*Desktop begin*/
 @media screen and (min-width: 992px){
 	body {
 		font-size: 2vh;
+	}
+
+	.ft-block{
+		display: table-cell;
+		float: none;
+		width: auto;
+		padding-right: 10em;
 	}
 
 	a.navbar-brand{
@@ -987,6 +1062,13 @@
 		margin-top: 0.85em;
 	}
 
+	.ft-block{
+		display: table-cell;
+		float: none;
+		width: auto;
+		padding-right: 4em;
+	}
+
 	#fn-menu{
 		display: table !important;
 	    position: absolute;
@@ -1036,6 +1118,11 @@
 	#section1{
 		height: 60em;
 		background-size: cover;
+	}
+
+	#section1>p{
+		width: 80%;
+		margin: auto;
 	}
 
 	.fs-slide2{
