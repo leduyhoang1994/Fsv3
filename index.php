@@ -4,7 +4,6 @@
 	<meta name="theme-color" content="#c4142b">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="stylesheet" type="text/css" href="font-awesome.min.css">
 	<script type="text/javascript">
 	    var isHell = false;
@@ -20,10 +19,12 @@
 		    var isHell = false;
 		</script>
 	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="index.css">
 	<!--[if !IE]><!-->
 		<script type="text/javascript" src="jquery-3.1.0.min.js"></script>
 		<script type="text/javascript" src="hammer.min.js"></script>
 		<script type="text/javascript" src="jquery.hammer.js"></script>
+		
 	<!--<![endif]-->
 	<!--[if IE]>
 	    <script src="jquery1.9.1.js"></script>
@@ -110,7 +111,7 @@
 			<label for="fs-rad3"><span></span></label>
 		</div>
 
-		<div id="fs-slide-content-container" class="row align-items-center justify-content-center" anim="anim-0.75" animFunc="fadeInUp50" >
+		<div id="fs-slide-content-container" class="row align-items-center " anim="anim-0.75" animFunc="fadeInUp50" >
 			<div id="fs-content-slide1" class="col-lg col-sm-4 col-md-4 fs-slide-content hidden-sm hidden-xs" value="1" onmouseover="switchSlideTo($(this).attr('value'));slide_hover=true;" onmouseleave="slide_hover=false;">
 				<div class="fcs-header"><img src="safe_icon.png" height="100%"><span class="boldRed fs-h3"/>Chia sẻ dữ liệu</span></div>
 				<div class="fcs-content">
@@ -148,51 +149,51 @@
 		</div>
 		<div class="row policy-content">
 			<div class="col-sm-4 policy-box py1em" anim="anim-0.5" animFunc="fadeInDown20">
-				<div class="row text-center justify-content-center">
+				<div class="row text-center ">
 					<div class="col-auto policy-box-thumb">
 						<img src="safe_icon.png" width="50%"/>
 					</div>
 				</div>
-				<div class="row text-center justify-content-center">
+				<div class="row text-center ">
 					<div class="col-auto policy-box-title">
 						<p class="fs-h3 red">Bảo mật</p>
 					</div>
 				</div>
-				<div class="row text-center justify-content-center">
+				<div class="row text-center ">
 					<div class="col-auto policy-box-desc padding1em">
 						<p>Bạn có thể chi sẻ dữ liệu ở đây, ở kia, ở bất cứ chỗ nào bất cứ lúc nào, kể cả bạn đi ăn đi chơi, đi ca, thậm chí là đi nhậu, phần chữ này kéo dài để test thôi hihi</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-sm-4 policy-box py1em" anim="anim-0.5" animFunc="fadeInDown20">
-				<div class="row text-center justify-content-center">
+				<div class="row text-center ">
 					<div class="col-auto policy-box-thumb">
 						<img src="storage_icon.png" width="50%"/>
 					</div>
 				</div>
-				<div class="row text-center justify-content-center">
+				<div class="row text-center ">
 					<div class="col-auto policy-box-title">
 						<p class="fs-h3 red">300BG lưu trữ</p>
 					</div>
 				</div>
-				<div class="row text-center justify-content-center">
+				<div class="row text-center ">
 					<div class="col-auto policy-box-desc padding1em">
 						<p>Bạn có thể chi sẻ dữ liệu ở đây, ở kia, ở bất cứ chỗ nào bất cứ lúc nào, kể cả bạn đi ăn đi chơi, đi ca, thậm chí là đi nhậu, phần chữ này kéo dài để test thôi hihi</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-sm-4 policy-box py1em" anim="anim-0.5" animFunc="fadeInDown20">
-				<div class="row text-center justify-content-center">
+				<div class="row text-center ">
 					<div class="col-auto policy-box-thumb">
 						<img src="speech_icon.png" width="50%"/>
 					</div>
 				</div>
-				<div class="row text-center justify-content-center">
+				<div class="row text-center ">
 					<div class="col-auto policy-box-title">
 						<p class="fs-h3 red">Tốc độ vượt trội</p>
 					</div>
 				</div>
-				<div class="row text-center justify-content-center">
+				<div class="row text-center ">
 					<div class="col-auto policy-box-desc padding1em">
 						<p>Bạn có thể chi sẻ dữ liệu ở đây, ở kia, ở bất cứ chỗ nào bất cứ lúc nào, kể cả bạn đi ăn đi chơi, đi ca, thậm chí là đi nhậu, phần chữ này kéo dài để test thôi hihi</p>
 					</div>
@@ -205,14 +206,14 @@
 	</div>
 	<div id="section5" class="container advise section">
 		<div class="row">
-			<div class="col-md-4 hidden-sm hidden-xs advise-left d-flex">
+			<div class="col-md-4 hidden-sm hidden-xs advise-left">
 				<div class="row h-80 w-100 align-self-center">
 				    <div class="col-md-12 my-auto avl-avt-ctn" onclick="avrSlideTo(1)" anim="anim-0" animFunc="fadeInRight20">
 				    	<div class="row h-100">
 							<div class="col-md-10 my-auto text-right avl-name"><p>Nguyễn Xuân Phú Cường</p></div>
 							<div class="col-md-2 h-100 my-auto avl-thumb">
 								<div class="row h-100">
-									<div class="h-100 w-50 d-flex justify-content-end">
+									<div class="h-100 w-50 justify-content-end">
 										<img src="img.jpg" height="70%" class="avl-image align-self-center align-self-end"/>
 									</div>
 									<div class="h-100 w-50">
@@ -231,7 +232,7 @@
 							<div class="col-md-10 my-auto text-right avl-name"><p>Nguyễn Xuân Phú Cường</p></div>
 							<div class="col-md-2 h-100 my-auto avl-thumb">
 								<div class="row h-100">
-									<div class="h-100 w-50 d-flex justify-content-end">
+									<div class="h-100 w-50 justify-content-end">
 										<img src="img.jpg" height="70%" class="avl-image align-self-center align-self-end"/>
 									</div>
 									<div class="h-100 w-50">
@@ -250,7 +251,7 @@
 							<div class="col-md-10 my-auto text-right avl-name"><p>Nguyễn Xuân Phú Cường</p></div>
 							<div class="col-md-2 h-100 my-auto avl-thumb">
 								<div class="row h-100">
-									<div class="h-100 w-50 d-flex justify-content-end">
+									<div class="h-100 w-50 justify-content-end">
 										<img src="img.jpg" height="70%" class="avl-image align-self-center align-self-end"/>
 									</div>
 									<div class="h-100 w-50">

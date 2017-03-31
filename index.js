@@ -298,14 +298,16 @@ function avrSlideTo(index){
    $('.avl-name p').css('color', '');
    $('.avl-avt-ctn:nth-child('+index+') .avl-name p').css('color', '#c4142b');
 
-   $('.avl-image').css({
-      border: '',
-      filter: ''
-   });
-   $('.avl-avt-ctn:nth-child('+index+') .avl-image').css({
-      border: '#c4142b 2px solid',
-      filter: 'grayscale(0%)'
-   });
+   if(!isHell){
+      $('.avl-image').css({
+         border: '',
+         filter: ''
+      });
+      $('.avl-avt-ctn:nth-child('+index+') .avl-image').css({
+         border: '#c4142b 2px solid',
+         filter: 'grayscale(0%)'
+      });
+   }
 
    $('.avl-circle').css('background-color', '');
    $('.avl-avt-ctn:nth-child('+index+') .avl-circle').css('background-color', '#c4142b');

@@ -1,22 +1,22 @@
 /*All begin*/
 	@font-face {
 	    font-family: "Os-light";
-	    src: url(font/opensans/OpenSans-Light.ttf) format("truetype");
+	    src: url(font/opensans/OpenSans-Light.eot),url(font/opensans/OpenSans-Light.ttf);
 	}
 
 	@font-face {
 	    font-family: "Os-regular";
-	    src: url(font/opensans/OpenSans-Regular.ttf) format("truetype");
+	    src: url(font/opensans/OpenSans-Regular.eot),url(font/opensans/OpenSans-Regular.ttf);
 	}
 
 	@font-face {
 	    font-family: "Os-bold";
-	    src: url(font/opensans/OpenSans-Bold.ttf) format("truetype");
+	    src: url(font/opensans/OpenSans-Bold.eot), url(font/opensans/OpenSans-Bold.ttf);
 	}
 
 	body{
 		background-color: white;
-		margin: 0;		font-family: 'Os-light','Open Sans', sans-serif;
+		margin: 0;		font-family: 'Os-light';
 	}
 
 	.section{
@@ -733,7 +733,7 @@
 	}
 
 	.avl-avt-ctn:hover .avl-image{
-		filter: grayscale(0%);
+		
 	}
 
 	.avl-avt-ctn:hover .avl-dotted{
@@ -954,6 +954,7 @@
 
 	.social-icons > div{
 		float: left !important;
+		font-size: 1.8em;
 	}
 /*All end*/
 
@@ -1032,7 +1033,7 @@
 	.su-img{
 		position: absolute;
 		width: 100%;
-		top: -25% !important;
+		top: 0;
 	}
 }
 /*Desktop end*/
