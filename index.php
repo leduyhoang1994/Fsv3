@@ -334,7 +334,7 @@
 						</ul>
 						</div>
 					</div>
-					<div class="col-md-12 sp-title" onclick="footerDropdown(this)"><p>FSHARE <i class="fa fa-caret-down" aria-hidden="true"></i></p></div>
+					<div class="col-md-12 sp-title" onclick="footerDropdown(this)"><p>FSHARE <i class="fa fa-caret-down hidden-md hidden-lg" aria-hidden="true"></i></p></div>
 					<div class="sp-bound">
 						<div class="col-md-12"><a class="ft-text" href="">Tính năng</a></div>
 						<div class="col-md-12"><a class="ft-text" href="">Đối tác</a></div>
@@ -355,7 +355,7 @@
 			</div>
 			<div class="ft-block">
 				<div class="row">
-					<div class="col-md-12" onclick="footerDropdown(this)"><p>CHÍNH SÁCH <i class="fa fa-caret-down" aria-hidden="true"></i></p></div>
+					<div class="col-md-12" onclick="footerDropdown(this)"><p>CHÍNH SÁCH <i class="fa fa-caret-down hidden-md hidden-lg" aria-hidden="true"></i></p></div>
 					<div class="sp-bound">
 						<div class="col-md-12"><a class="ft-text" href="">Chính sách điểm thưởng</a></div>
 						<div class="col-md-12"><a class="ft-text" href="">Chính sách Hotfile/Directlink</a></div>
@@ -368,7 +368,7 @@
 			</div>
 			<div class="ft-block">
 				<div class="row">
-					<div class="col-md-12" onclick="footerDropdown(this)"><p>HỖ TRỢ <i class="fa fa-caret-down" aria-hidden="true"></i></p></div>
+					<div class="col-md-12" onclick="footerDropdown(this)"><p>HỖ TRỢ <i class="fa fa-caret-down hidden-md hidden-lg" aria-hidden="true"></i></p></div>
 					<div class="sp-bound">
 						<div class="col-md-12"><a class="ft-text" href="">Hướng dẫn sử dụng</a></div>
 						<div class="col-md-12"><a class="ft-text" href="">Câu hỏi thường gặp</a></div>

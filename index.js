@@ -8,6 +8,8 @@ var lastScrollTop = 0;
 var sectionsList = new Array(10);
 var avr_interval = null;
 var fs_slide_interval = null;
+var avr_timeout = null;
+var fs_slide_timeout = null;
 
 $(document).ready(function($) {
    if( !isHell ) { 
@@ -40,41 +42,47 @@ $(document).ready(function($) {
    var fcs_content = document.getElementById("fs-slide-content-container");
    jQuery( avr ).hammer().on( "swipeleft", function( event ) {
       controlAvrInterval(false);
+      clearTimeout(avr_timeout);
       if(avr_slide_index != 3)
       avrSlideTo(++avr_slide_index);
-      setTimeout(controlAvrInterval(true), 10000);
+      avr_timeout = setTimeout(controlAvrInterval(true), 10000);
     } );
    jQuery( avr ).hammer().on( "swiperight", function( event ) {
       controlAvrInterval(false);
+      clearTimeout(avr_timeout);
       if(avr_slide_index != 1)
       avrSlideTo(--avr_slide_index);
-      setTimeout(controlAvrInterval(true), 10000);
+      avr_timeout = setTimeout(controlAvrInterval(true), 10000);
     } );
 
    jQuery( fs_slideshow ).hammer().on( "swipeleft", function( event ) {
       controlFsSlideInterval(false);
+      clearTimeout(fs_slide_timeout);
       if(slide_index != 3)
       switchSlideTo(++slide_index);
-      setTimeout(controlFsSlideInterval(true), 10000);
+      fs_slide_timeout = setTimeout(controlFsSlideInterval(true), 10000);
     } );
    jQuery( fs_slideshow ).hammer().on( "swiperight", function( event ) {
       controlFsSlideInterval(false);
+      clearTimeout(fs_slide_timeout);
       if(slide_index != 1)
       switchSlideTo(--slide_index);
-      setTimeout(controlFsSlideInterval(true), 10000);
+      fs_slide_timeout = setTimeout(controlFsSlideInterval(true), 10000);
     } );
 
    jQuery( fcs_content ).hammer().on( "swipeleft", function( event ) {
       controlFsSlideInterval(false);
+      clearTimeout(fs_slide_timeout);
       if(slide_index != 3)
       switchSlideTo(++slide_index);
-      setTimeout(controlFsSlideInterval(true), 10000);
+      fs_slide_timeout = setTimeout(controlFsSlideInterval(true), 10000);
     } );
    jQuery( fcs_content ).hammer().on( "swiperight", function( event ) {
       controlFsSlideInterval(false);
+      clearTimeout(fs_slide_timeout);
       if(slide_index != 1)
       switchSlideTo(--slide_index);
-      setTimeout(controlFsSlideInterval(true), 10000);
+      fs_slide_timeout = setTimeout(controlFsSlideInterval(true), 10000);
     } );
 
 });
@@ -95,7 +103,7 @@ function controlAvrInterval(flag){
 function controlFsSlideInterval(flag){
    if(flag)
      fs_slide_interval = setInterval(function(){
-      avrSlideTo(slide_index);
+      switchSlideTo(slide_index);
       slide_index++;
       if(slide_index == 4){
          slide_index = 1;
@@ -170,7 +178,7 @@ function resizeElement(){
    if($('.su-img').height() < $('#section7').height()){
       $('.su-img').height($('#section7').height());
    }
-   if($(window).width() >= 992){
+   if($(window).width() > 992){
       var dvbtm = (parseFloat($('.device').css('bottom')));
       $('#section1').height($(window).height() - $('#navspace').height() + dvbtm);
    }
@@ -306,10 +314,12 @@ function avrSlideTo(index){
 }
 
 function footerDropdown(element){
-   var height = 0;
-   $(element).next().children().each(function(index, el) {
-      height += $(this).height();
-   });
-   $('.sp-bound').animate({'height':'0'}, 10);
-   $(element).next().animate({'height':height}, 100);
+   if($(window).width() <= 992){
+      var height = 0;
+      $(element).next().children().each(function(index, el) {
+         height += $(this).height();
+      });
+      $('.sp-bound').animate({'height':'0'}, 10);
+      $(element).next().animate({'height':height}, 100);
+   } 
 }
