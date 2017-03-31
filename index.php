@@ -22,6 +22,8 @@
 	<![endif]-->
 	<!--[if !IE]><!-->
 		<script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+		<script type="text/javascript" src="hammer.min.js"></script>
+		<script type="text/javascript" src="jquery.hammer.js"></script>
 	<!--<![endif]-->
 	<!--[if IE]>
 	    <script src="jquery1.9.1.js"></script>

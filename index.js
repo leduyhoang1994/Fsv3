@@ -6,6 +6,8 @@ var moveTo = 1;
 var transitionDone = true;
 var lastScrollTop = 0;
 var sectionsList = new Array(10);
+var avr_interval = null;
+var fs_slide_interval = null;
 
 $(document).ready(function($) {
    if( !isHell ) { 
@@ -23,7 +25,7 @@ $(document).ready(function($) {
          }
       }, 2000);
 
-      setInterval(function(){
+      avr_interval = setInterval(function(){
          avrSlideTo(avr_slide_index);
          avr_slide_index++;
          if(avr_slide_index == 4){
@@ -33,10 +35,78 @@ $(document).ready(function($) {
    }
    //$.scrollSpeed(150, 800);
    resizeElement();
+   var avr = document.getElementsByClassName("advise-right")[0];
+   var fs_slideshow = document.getElementById("fs-slideshow");
+   var fcs_content = document.getElementById("fs-slide-content-container");
+   jQuery( avr ).hammer().on( "swipeleft", function( event ) {
+      controlAvrInterval(false);
+      if(avr_slide_index != 3)
+      avrSlideTo(++avr_slide_index);
+      setTimeout(controlAvrInterval(true), 10000);
+    } );
+   jQuery( avr ).hammer().on( "swiperight", function( event ) {
+      controlAvrInterval(false);
+      if(avr_slide_index != 1)
+      avrSlideTo(--avr_slide_index);
+      setTimeout(controlAvrInterval(true), 10000);
+    } );
+
+   jQuery( fs_slideshow ).hammer().on( "swipeleft", function( event ) {
+      controlFsSlideInterval(false);
+      if(slide_index != 3)
+      switchSlideTo(++slide_index);
+      setTimeout(controlFsSlideInterval(true), 10000);
+    } );
+   jQuery( fs_slideshow ).hammer().on( "swiperight", function( event ) {
+      controlFsSlideInterval(false);
+      if(slide_index != 1)
+      switchSlideTo(--slide_index);
+      setTimeout(controlFsSlideInterval(true), 10000);
+    } );
+
+   jQuery( fcs_content ).hammer().on( "swipeleft", function( event ) {
+      controlFsSlideInterval(false);
+      if(slide_index != 3)
+      switchSlideTo(++slide_index);
+      setTimeout(controlFsSlideInterval(true), 10000);
+    } );
+   jQuery( fcs_content ).hammer().on( "swiperight", function( event ) {
+      controlFsSlideInterval(false);
+      if(slide_index != 1)
+      switchSlideTo(--slide_index);
+      setTimeout(controlFsSlideInterval(true), 10000);
+    } );
+
 });
 
+function controlAvrInterval(flag){
+   if(flag)
+     avr_interval = setInterval(function(){
+      avrSlideTo(avr_slide_index);
+      avr_slide_index++;
+      if(avr_slide_index == 4){
+         avr_slide_index = 1;
+      }
+   }, 3500);
+   else
+     clearInterval(avr_interval);
+}
+
+function controlFsSlideInterval(flag){
+   if(flag)
+     fs_slide_interval = setInterval(function(){
+      avrSlideTo(slide_index);
+      slide_index++;
+      if(slide_index == 4){
+         slide_index = 1;
+      }
+   }, 2000);
+   else
+     clearInterval(fs_slide_interval);
+}
+
 function startInterval(){
-   setInterval(function(){
+   fs_slide_interval = setInterval(function(){
       if(!slide_hover){
          switchSlideTo(slide_index);
          slide_index++;
@@ -46,13 +116,14 @@ function startInterval(){
       }
    }, 2000);
 
-   setInterval(function(){
+   avr_interval = setInterval(function(){
       avrSlideTo(avr_slide_index);
       avr_slide_index++;
       if(avr_slide_index == 4){
          avr_slide_index = 1;
       }
    }, 3500);
+
    checkScrollToShow();
 }
 
