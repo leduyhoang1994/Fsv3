@@ -81,7 +81,7 @@
 		text-decoration: none;
 		position: relative;
 		padding: 10px 40px;
-		top: 5em;
+		top: 2em;
 	}
 
 	a.fs-button2:hover{
@@ -717,6 +717,8 @@
 	.avl-avt-ctn{
 		cursor: pointer;
     	z-index: 1;
+    	margin-top: 0.5em;
+    	margin-bottom: 0.5em;
 	}
 
 	.avl-name-selected{
@@ -902,7 +904,7 @@
 		margin: auto;
 	}
 
-	.ft-block>.row>div{
+	.support .row div{
 		float: none;
 	}
 
@@ -920,7 +922,7 @@
 		outline: none;
 	}
 	.ft-text{
-		font-size: 0.8em;
+		font-size: 1em;
 	}
 
 	.border-top{
@@ -948,6 +950,10 @@
 
 	#footer{
 		background-color: #333333;
+	}
+
+	.social-icons > div{
+		float: left !important;
 	}
 /*All end*/
 
@@ -1156,7 +1162,6 @@
 	}
 
 	#section2{
-		height: 80em;
 		background-position-y: -31em;
 	}
 
@@ -1183,6 +1188,21 @@
 		position: absolute;
 		height: 100%;
 		width: auto;
+	}
+
+	.ft-text{
+		font-size : 1.429em;
+	}
+
+	.support{
+		margin-left: 2em;
+	}
+
+	.sp-bound{
+		height: 0;
+    	overflow: hidden;
+    	transition: height 0.2s ease-in-out;
+    	margin-left: 0.5em;
 	}
 }
 /*Mobile end*/

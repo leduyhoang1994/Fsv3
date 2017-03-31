@@ -233,3 +233,12 @@ function avrSlideTo(index){
    $('.avl-dotted').css('border-color', '');
    $('.avl-avt-ctn:nth-child('+index+') .avl-dotted').css('border-color', '#c4142b');
 }
+
+function footerDropdown(element){
+   var height = 0;
+   $(element).next().children().each(function(index, el) {
+      height += $(this).height();
+   });
+   $('.sp-bound').animate({'height':'0'}, 10);
+   $(element).next().animate({'height':height}, 100);
+}

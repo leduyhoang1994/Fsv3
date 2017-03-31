@@ -145,14 +145,14 @@
 			</div>
 		</div>
 		<div class="row policy-content">
-			<div class="col-sm-4 policy-box" anim="anim-0.5" animFunc="fadeInDown20">
+			<div class="col-sm-4 policy-box py1em" anim="anim-0.5" animFunc="fadeInDown20">
 				<div class="row text-center justify-content-center">
 					<div class="col-auto policy-box-thumb">
 						<img src="safe_icon.png" width="50%"/>
 					</div>
 				</div>
 				<div class="row text-center justify-content-center">
-					<div class="col-auto policy-box-title padding1em">
+					<div class="col-auto policy-box-title">
 						<p class="fs-h3 red">Bảo mật</p>
 					</div>
 				</div>
@@ -162,14 +162,14 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4 policy-box" anim="anim-0.5" animFunc="fadeInDown20">
+			<div class="col-sm-4 policy-box py1em" anim="anim-0.5" animFunc="fadeInDown20">
 				<div class="row text-center justify-content-center">
 					<div class="col-auto policy-box-thumb">
 						<img src="storage_icon.png" width="50%"/>
 					</div>
 				</div>
 				<div class="row text-center justify-content-center">
-					<div class="col-auto policy-box-title padding1em">
+					<div class="col-auto policy-box-title">
 						<p class="fs-h3 red">300BG lưu trữ</p>
 					</div>
 				</div>
@@ -179,14 +179,14 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4 policy-box" anim="anim-0.5" animFunc="fadeInDown20">
+			<div class="col-sm-4 policy-box py1em" anim="anim-0.5" animFunc="fadeInDown20">
 				<div class="row text-center justify-content-center">
 					<div class="col-auto policy-box-thumb">
 						<img src="speech_icon.png" width="50%"/>
 					</div>
 				</div>
 				<div class="row text-center justify-content-center">
-					<div class="col-auto policy-box-title padding1em">
+					<div class="col-auto policy-box-title">
 						<p class="fs-h3 red">Tốc độ vượt trội</p>
 					</div>
 				</div>
@@ -266,25 +266,25 @@
 			</div>
 			<div class="col-md-8 advise-right">
 				<div class="row h-100 w-100 mx-auto">
-					<p class="fs-h3 padding1em mx-auto my-auto w-100 text-center" anim="anim-0.6" animFunc="fadeInDown20">Tại sao nên chọn Fshare?</p>
+					<p class="fs-h2 mx-auto my-auto w-100 text-center" anim="anim-0.6" animFunc="fadeInDown20">Tại sao nên chọn Fshare?</p>
 					<div class="avr-slide text-center mx-auto my-auto" anim="anim-0.8" animFunc="fadeInLeft20">
 						<div class="avr-slide-bound">
 							<div class="text-center avr-slide-item">
 								<img class="avr-image" src="device.png" height="100px" width="100px"/>
-								<p>Anh Phạm Xuân Phú Cường</p>
-								<p>Chủ tịch tập đoàn HD Online</p>
+								<p class="fs-h3">Anh Phạm Xuân Phú Cường</p>
+								<p class="fs-h3">Chủ tịch tập đoàn HD Online</p>
 								<p class="padding1em avr-quote">Bạn có thể chi sẻ dữ liệu ở đây, ở kia, ở bất cứ chỗ nào bất cứ lúc nào, kể cả bạn đi ăn đi chơi, đi ca, thậm chí là đi nhậu, phần chữ này kéo dài để test thôi hihi</p>
 							</div>
 							<div class="text-center avr-slide-item">
 								<img class="avr-image" src="device.png" height="100px" width="100px"/>
-								<p>Anh Phạm Xuân Phú Cường</p>
-								<p>Chủ tịch tập đoàn HD Online</p>
+								<p class="fs-h3">Anh Phạm Xuân Phú Cường</p>
+								<p class="fs-h3">Chủ tịch tập đoàn HD Online</p>
 								<p class="padding1em avr-quote">Bạn có thể chi sẻ dữ liệu ở đây, ở kia, ở bất cứ chỗ nào bất cứ lúc nào, kể cả bạn đi ăn đi chơi, đi ca, thậm chí là đi nhậu, phần chữ này kéo dài để test thôi hihi</p>
 							</div>
 							<div class="text-center avr-slide-item">
 								<img class="avr-image" src="device.png" height="100px" width="100px"/>
-								<p>Anh Phạm Xuân Phú Cường</p>
-								<p>Chủ tịch tập đoàn HD Online</p>
+								<p class="fs-h3">Anh Phạm Xuân Phú Cường</p>
+								<p class="fs-h3">Chủ tịch tập đoàn HD Online</p>
 								<p class="padding1em avr-quote">Bạn có thể chi sẻ dữ liệu ở đây, ở kia, ở bất cứ chỗ nào bất cứ lúc nào, kể cả bạn đi ăn đi chơi, đi ca, thậm chí là đi nhậu, phần chữ này kéo dài để test thôi hihi</p>
 							</div>
 						</div>
@@ -332,11 +332,13 @@
 						</ul>
 						</div>
 					</div>
-					<div class="col-md-12"><p>FSHARE</p></div>
-					<div class="col-md-12"><a class="ft-text" href="">Tính năng</a></div>
-					<div class="col-md-12"><a class="ft-text" href="">Đối tác</a></div>
-					<div class="col-md-12"><a class="ft-text" href="">Liên hệ</a></div>
-					<div class="col-md-12"><a class="ft-text" href="">Tin tức</a></div>
+					<div class="col-md-12 sp-title" onclick="footerDropdown(this)"><p>FSHARE <i class="fa fa-caret-down" aria-hidden="true"></i></p></div>
+					<div class="sp-bound">
+						<div class="col-md-12"><a class="ft-text" href="">Tính năng</a></div>
+						<div class="col-md-12"><a class="ft-text" href="">Đối tác</a></div>
+						<div class="col-md-12"><a class="ft-text" href="">Liên hệ</a></div>
+						<div class="col-md-12"><a class="ft-text" href="">Tin tức</a></div>
+					</div>
 					<div class="col-md-12 hidden-xs hidden-sm">
 						<div class="dropdown">
 						<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><i class="fa fa-globe" aria-hidden="true"></i>  Tiếng Việt <i class="fa fa-angle-down" aria-hidden="true"></i></button>
@@ -351,23 +353,27 @@
 			</div>
 			<div class="ft-block">
 				<div class="row">
-					<div class="col-md-12"><p>CHÍNH SÁCH</p></div>
-					<div class="col-md-12"><a class="ft-text" href="">Chính sách điểm thưởng</a></div>
-					<div class="col-md-12"><a class="ft-text" href="">Chính sách Hotfile/Directlink</a></div>
-					<div class="col-md-12"><a class="ft-text" href="">Chính sách hội viên</a></div>
-					<div class="col-md-12"><a class="ft-text" href="">Điều khoản sử dụng</a></div>
-					<div class="col-md-12"><a class="ft-text" href="">Chính sách và quy định chung</a></div>
-					<div class="col-md-12"><a class="ft-text" href="">Chính sách bảo mật thông tin</a></div>
+					<div class="col-md-12" onclick="footerDropdown(this)"><p>CHÍNH SÁCH <i class="fa fa-caret-down" aria-hidden="true"></i></p></div>
+					<div class="sp-bound">
+						<div class="col-md-12"><a class="ft-text" href="">Chính sách điểm thưởng</a></div>
+						<div class="col-md-12"><a class="ft-text" href="">Chính sách Hotfile/Directlink</a></div>
+						<div class="col-md-12"><a class="ft-text" href="">Chính sách hội viên</a></div>
+						<div class="col-md-12"><a class="ft-text" href="">Điều khoản sử dụng</a></div>
+						<div class="col-md-12"><a class="ft-text" href="">Chính sách và quy định chung</a></div>
+						<div class="col-md-12"><a class="ft-text" href="">Chính sách bảo mật thông tin</a></div>
+					</div>
 				</div>
 			</div>
 			<div class="ft-block">
 				<div class="row">
-					<div class="col-md-12"><p>HỖ TRỢ</p></div>
-					<div class="col-md-12"><a class="ft-text" href="">Hướng dẫn sử dụng</a></div>
-					<div class="col-md-12"><a class="ft-text" href="">Câu hỏi thường gặp</a></div>
-					<div class="col-md-12"><a class="ft-text" href="">Gửi yêu cầu hỗ trợ</a></div>
+					<div class="col-md-12" onclick="footerDropdown(this)"><p>HỖ TRỢ <i class="fa fa-caret-down" aria-hidden="true"></i></p></div>
+					<div class="sp-bound">
+						<div class="col-md-12"><a class="ft-text" href="">Hướng dẫn sử dụng</a></div>
+						<div class="col-md-12"><a class="ft-text" href="">Câu hỏi thường gặp</a></div>
+						<div class="col-md-12"><a class="ft-text" href="">Gửi yêu cầu hỗ trợ</a></div>
+					</div>
 					<div class="col-md-12 py1em"><a href=""></a></div>
-					<div class="col-md-12"><a class="ft-text" href="">THÔNG TIN LIÊN HỆ</a></div>
+					<div class="col-md-12"><p class="ft-text">THÔNG TIN LIÊN HỆ</p></div>
 					<div class="col-md-12"><p class="ft-text">Hotline : <span class="boldRed">1900 6600</span></p></div>
 					<div class="col-md-12"><p class="ft-text">Email hỗ trợ : <span class="boldRed">hotro@fshare.vn</span></p></div>
 				</div>
@@ -378,8 +384,8 @@
 					<div class="col-md-12 py1em"><a href=""></a></div>
 					<div class="col-md-12 py1em"><a href=""></a></div>
 					<div class="col-md-12"><a href="">KẾT NỐI VỚI CHÚNG TÔI</a></div>
-					<div class="col-md-12 col-xs-6 col-sm-4">
-						<div class="row">
+					<div class="col-md-12 col-xs-12 col-sm-12">
+						<div class="row social-icons">
 							<div class="col-md-3 col-xs-3"><i class="fa fa-facebook" aria-hidden="true"></i></div>
 							<div class="col-md-3 col-xs-3"><i class="fa fa-google-plus" aria-hidden="true"></i></div>
 							<div class="col-md-3 col-xs-3"><i class="fa fa-twitter" aria-hidden="true"></i></div>
